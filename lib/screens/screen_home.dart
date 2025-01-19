@@ -22,7 +22,7 @@ class ScreenHome extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(24),
+              padding: const EdgeInsets.all(22),
               child: TextField(
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
