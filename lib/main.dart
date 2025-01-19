@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
     return SafeArea(
       child: MaterialApp(
         theme: ThemeData(
-          primaryColor: const Color(0xFFFFFFFF),
-          scaffoldBackgroundColor: const Color(0xFF111111)),
+          primaryColor: const Color.fromARGB(255, 0, 0, 0),
+          scaffoldBackgroundColor: const Color.fromARGB(255, 0, 0, 0)),
         home: ScreenHome(), // Home screen
         routes: {
           'screen_questions': (context) => ScreenQuestions(),

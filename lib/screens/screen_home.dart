@@ -4,6 +4,7 @@ class ScreenHome extends StatefulWidget {
   const ScreenHome({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _ScreenHomeState createState() => _ScreenHomeState();
 }
 

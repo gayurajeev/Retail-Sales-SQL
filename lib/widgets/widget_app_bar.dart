@@ -6,7 +6,7 @@ class WidgetAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: const Color.fromARGB(0, 0, 0, 0),
+      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       automaticallyImplyLeading: false, // Removes the back button
       title: SizedBox(
         width: double.infinity,
