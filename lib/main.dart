@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:maths_quiz/screens/screen_home.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -9,6 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SafeArea(
+      child: MaterialApp(
+        theme: ThemeData(
+          primaryColor: const Color(0xFFFFFFFF),
+          scaffoldBackgroundColor: const Color(0xFF111111)),
+        home: const ScreenHome(), // Home screen
+      ),
+    );
   }
 }
