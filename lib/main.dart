@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maths_quiz/screens/screen_home.dart';
+import 'package:maths_quiz/screens/screen_leaderboard.dart';
+import 'package:maths_quiz/screens/screen_questions.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +17,11 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: const Color(0xFFFFFFFF),
           scaffoldBackgroundColor: const Color(0xFF111111)),
-        home: const ScreenHome(), // Home screen
+        home: ScreenHome(), // Home screen
+        routes: {
+          'screen_questions': (context) => ScreenQuestions(),
+          'screen_leaderboard': (context) => ScreenLeaderboard(),
+        },
       ),
     );
   }

@@ -4,6 +4,6 @@
 
 ## Getting Started
 
-flutter pub get
-flutter devices
-flutter run
+        flutter pub get
+        flutter devices
+        flutter run
