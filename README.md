@@ -1,6 +1,6 @@
  Maths Quiz App
 # Frontend : Flutter
-# Backend  : Flask
+# Backend  : Django
 
 ## Getting Started
 
