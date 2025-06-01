@@ -8,3 +8,4 @@
         flutter pub get
         flutter devices
         flutter run
+# Retail-Sales-SQL
